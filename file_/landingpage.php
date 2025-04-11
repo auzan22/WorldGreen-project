@@ -3,17 +3,6 @@
         background: linear-gradient(to right, #4CAF50, #2E7D32);
         color: white;
     }
-
-    .eco-card {
-        background: linear-gradient(to right, #A5D6A7, #66BB6A);
-        border-radius: 0 0 100px 25px;
-        color: #2E7D32;
-    }
-
-    .carousel-item img {
-        height: 400px;
-        object-fit: cover;
-    }
 </style>
 
 <body>
@@ -43,7 +32,7 @@
         <div class="p-5 text-dark bg-light d-flex align-items-center position-relative eco-card">
             <div>
                 <h1 style="font-size:60px;"><b>Selamat Datang di EcoGreen</b></h1>
-                <p class="text-muted">Solusi ramah lingkungan untuk masa depan yang berkelanjutan.</p>
+                <p class="text-muted">Solusi ramah lingkungan untuk masa depan.</p>
             </div>
         </div>
     </div>
@@ -96,7 +85,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card p-3 text-dark">
-                        <p> "Solusi inovatif untuk menjaga bumi kita."</p>
+                        <p> "Solusi inovatif untuk menjaga bumi kita YGY."</p>
                         <h5>- Budiono Siregar, Medan</h5>
                     </div>
                 </div>
