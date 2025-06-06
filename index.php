@@ -1,21 +1,20 @@
 <?php
 session_start();
-$page = isset($_GET['page']) ? $_GET['page'] :"home";
-function loadPage($page){
+
+$page = isset($_GET['page']) ? $_GET['page'] : "home";
+
+function loadPage($page) {
     if ($page === 'home') {
-        include 'file_/landingpage.php';
-
-    } else if ($page === 'login') {
-        include 'file_/login.php';
-
-    } else if ($page === 'register') {
-        include 'file_/register.php';
-
-    } else if ($page === 'productsX') {
-        include 'file_/productsX.php';
+        include 'file_/home.php';
+    } else if ($page === 'simulation') {
+        include 'file_/simulation.php';
+        echo "<p>Page not found.</p>";
     }
 }
 
+// Move this line *before* calling `loadPage()`
 include '_partials/_template/header.php';
-loadPage(page: $page);
+
+// Call the function correctly
+loadPage($page);
 ?>
